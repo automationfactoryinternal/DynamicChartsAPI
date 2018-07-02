@@ -1,0 +1,18 @@
+{
+  "name": "chartapi",
+  "version": "1.0.0",
+  "description": "This is an API to pass data and generate charts as Base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://automationfactory@dynamicchartapi.scm.azurewebsites.net:443/DynamicChartAPI.git"
+  },
+  "keywords": [
+    "AF"
+  ],
+  "author": "Hari Govind",
+  "license": "ISC"
+}
