@@ -1,18 +1,21 @@
 {
-  "name": "chartapi",
+  "name": "wwwroot",
   "version": "1.0.0",
-  "description": "This is an API to pass data and generate charts as Base64",
-  "main": "index.js",
+  "description": "server code in nodejs",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://automationfactory@dynamicchartapi.scm.azurewebsites.net:443/DynamicChartAPI.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
-    "AF"
+    "node"
   ],
-  "author": "Hari Govind",
-  "license": "ISC"
+  "author": "Sachin Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "python-shell": "^0.5.0",
+    "streamifier": "^0.1.1",
+    "tedious": "^2.6.1"
+  }
 }
